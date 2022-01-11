@@ -31,11 +31,10 @@ python bot.py
 ```
 ## Our Telegram Channel and Group
 
-* [TG Bots Updates](https://telegram.dog/TGBotsz)
-* [InFoTel Paid Apps](https://telegram.dog/InFoTel14)
-* [InFoTel Group](https://telegram.dog/InFoTelGroup)
+* [AIOM BOTS](https://telegram.dog/AIOM_BOTS)
+* [InFoTel Group](https://telegram.dog/AIOM_BOTS_GROUP)
 
-## Credits, and Thanks to
+## Credits, And Thanks To
 
 * [@SpEcHlDe](https://telegram.dog/ThankTelegram) for his [AnyDLBot](https://telegram.dog/AnyDLBot)
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
