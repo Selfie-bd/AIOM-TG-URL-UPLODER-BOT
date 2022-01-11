@@ -32,7 +32,7 @@ python bot.py
 ## Our Telegram Channel and Group
 
 * [AIOM BOTS](https://telegram.dog/AIOM_BOTS)
-* [InFoTel Group](https://telegram.dog/AIOM_BOTS_GROUP)
+* [AIOM BOTS GROUP](https://telegram.dog/AIOM_BOTS_GROUP)
 
 ## Credits, And Thanks To
 
