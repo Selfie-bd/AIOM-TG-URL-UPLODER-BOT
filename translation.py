@@ -33,7 +33,7 @@ URL | filename | username | password"""
     CURENT_PLAN_DETAILS = """Current Plan Details
 --------
 Telegram ID: <code>{}</code>
-Plan name: Free Cloned User
+Plan name: Free User
 Expires on: 31/12/2022"""
     HELP_USER = """Hi I Am URL Uploader Bot..
     
@@ -50,7 +50,7 @@ Send /me to Know Current Plan Details"""
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days."
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
