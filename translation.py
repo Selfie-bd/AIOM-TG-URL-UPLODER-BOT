@@ -42,17 +42,11 @@ Expires on: 31/12/2022"""
 3. Select The Button.
    SVideo - Give File as Video with Screenshots
    DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-   
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/QkAkSLBgoYw">Diploy</a>
-
+   Video  - Give File as Video Without Screenshots
+   DFile  - Give File Without Screenshots
 --------
-Send /me to know current plan details
-
-Support Group : @InFoTelGroup
-© @TGBotsZ"""
-    REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
+Send /me to Know Current Plan Details"""
+    REPLY_TO_DOC_GET_LINK = "Reply to A Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
