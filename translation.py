@@ -1,13 +1,7 @@
 class Translation(object):
-    START_TEXT = """<b>Hello,
-This Is A Telegram URL Upload Bot!
-
-Please Send Me Any Direct Download Link, I Can Upload To Telegram As File/Video
-
-/help For More Details..
-
-A Bot By : @AIOM_BOTS</b>"""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
+    START_TEXT = """<b> ʜᴇʟʟᴏ, ᴛʜɪꜱ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜʀʟ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ!  ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀꜱ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ  /ʜᴇʟᴘ ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ...
+</b>"""
+    RENAME_403_ERR = "ꜱᴏʀʀʏ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘᴇʀᴍɪᴛᴛᴇᴅ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴛʜɪꜱ ꜰɪʟᴇ."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
     FORMAT_SELECTION = "Select The Desired Format: <a href='{}'>File Size Might Be Approximate</a> \nIf You Want To set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
