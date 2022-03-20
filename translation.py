@@ -2,49 +2,39 @@ class Translation(object):
     START_TEXT = """<b> ʜᴇʟʟᴏ, ᴛʜɪꜱ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜʀʟ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ!  ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀꜱ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ  /ʜᴇʟᴘ ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ...
 </b>"""
     RENAME_403_ERR = "ꜱᴏʀʀʏ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴘᴇʀᴍɪᴛᴛᴇᴅ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴛʜɪꜱ ꜰɪʟᴇ."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    FORMAT_SELECTION = "Select The Desired Format: <a href='{}'>File Size Might Be Approximate</a> \nIf You Want To set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
-    NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "DOWNLOADING..."
-    UPLOAD_START = "UPLOADING..."
-    RCHD_BOT_API_LIMIT = "UPLOADING..."
-    RCHD_TG_API_LIMIT = "Downloaded In {} seconds.\nDetected File Size: {}\nSorry. But, I Cannot Upload Files Greater Than 1.9GB Due To Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank You For Using Me</b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} Seconds. \nUploaded in {} Seconds.\n Uploaded By : @AIOM_BOTS"
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users Can Only Upload: {}\nPlease /upgrade Your Subscription.\nIf You Think This Is A bug, Please Contact <a href='https://t.me/ajvadntr2'>@ajvadntr</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "✅️ Custom Video / File Thumbnail Saved"
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom Thumbnail Cleared Succesfully."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media Cleared Succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = "Uploaded By : @AIOM_BOTS"
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail Found."
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> Said: {}"
-    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> Added to {} Till {}."
-    CURENT_PLAN_DETAILS = """Current Plan Details
+    ABS_TEXT = " ᴘʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ʙᴇ ꜱᴇʟꜰɪꜱʜ."
+    UPGRADE_TEXT = "<b>👉 ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ.. </b>  /help ꜰᴏʀ ᴅᴇᴛᴀɪʟꜱ"
+    FORMAT_SELECTION = "ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ꜰᴏʀᴍᴀᴛ: <a href='{}'>File Size Might Be Approximate</a> \nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴇᴛ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ, ꜱᴇɴᴅ ᴘʜᴏᴛᴏ ʙᴇꜰᴏʀᴇ ᴏʀ Qᴜɪᴄᴋʟʏ ᴀꜰᴛᴇʀ ᴛᴀᴘᴘɪɴɢ ᴏɴ ᴀɴʏ ᴏꜰ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ.\nʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ /deletethumbnail ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴀᴜᴛᴏ-ɢᴇɴᴇʀᴀᴛᴇᴅ ᴛʜᴜᴍʙɴᴀɪʟ."
+    SET_CUSTOM_USERNAME_PASSWORD = """ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴘʀᴇᴍɪᴜᴍ ᴠɪᴅᴇᴏꜱ, ᴘʀᴏᴠɪᴅᴇ ɪɴ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ꜰᴏʀᴍᴀᴛ: ᴜʀʟ | ꜰɪʟᴇɴᴀᴍᴇ | ᴜꜱᴇʀɴᴀᴍᴇ | ᴘᴀꜱꜱᴡᴏʀᴅ"""
+    NOYES_URL = "@GroupDcBots  ᴜʀʟ ᴅᴇᴛᴇᴄᴛᴇᴅ. ᴘʟᴇᴀꜱᴇ ᴜꜱᴇ @Dcstreamsbot ᴀɴᴅ ɢᴇᴛ ᴍᴇ ᴀ ꜰᴀꜱᴛ ᴜʀʟ ꜱᴏ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ, ᴡɪᴛʜᴏᴜᴛ ᴍᴇ ꜱʟᴏᴡɪɴɢ ᴅᴏᴡɴ ꜰᴏʀ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ."
+    DOWNLOAD_START = "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ..."
+    UPLOAD_START = "ᴜᴘʟᴏᴀᴅɪɴɢ..."
+    RCHD_BOT_API_LIMIT = "ᴜᴘʟᴏᴀᴅɪɴɢ..."
+    RCHD_TG_API_LIMIT = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} ꜱᴇᴄᴏɴᴅꜱ.\nᴅᴇᴛᴇᴄᴛᴇᴅ ꜰɪʟᴇ ꜱɪᴢᴇ: {}\nꜱᴏʀʀʏ. ʙᴜᴛ, ɪ ᴄᴀɴɴᴏᴛ ᴜᴘʟᴏᴀᴅ ꜰɪʟᴇꜱ ɢʀᴇᴀᴛᴇʀ ᴛʜᴀɴ 1.9ɢʙ ᴅᴜᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʟɪᴍɪᴛᴀᴛɪᴏɴꜱ."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ❤️</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} Seconds. \nUploaded in {} Seconds.\n ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ : @GroupDcBots"
+    NOT_AUTH_USER_TEXT = "ᴘʟᴇᴀꜱᴇ /update ʏᴏᴜʀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "ᴅᴇᴛᴇᴄᴛᴇᴅ ꜰɪʟᴇ ꜱɪᴢᴇ: {}. ꜰʀᴇᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴏɴʟʏ ᴜᴘʟᴏᴀᴅ: {}\nPlease /upgrade Your Subscription.\nɪꜰ ʏᴏᴜ ᴛʜɪɴᴋ ᴛʜɪꜱ ɪꜱ ᴀ ʙᴜɢ, ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ  <a href='https://t.me/dcbotsa'>@dcbotsa</a>"
+    SAVED_CUSTOM_THUMB_NAIL = "✅️ ᴄᴜꜱᴛᴏᴍ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴀᴠᴇᴅ"
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ ᴍᴇᴅɪᴀ ᴄʟᴇᴀʀᴇᴅ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ."
+    SAVED_RECVD_DOC_FILE = "ᴅᴏᴄᴜᴍᴇɴᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ."
+    CUSTOM_CAPTION_UL_FILE = "ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ : @GroupDcBots"
+    NO_CUSTOM_THUMB_NAIL_FOUND = "ɴᴏ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ꜰᴏᴜɴᴅ."
+    NO_VOID_FORMAT_FOUND = "ᴇʀʀᴏʀ...\n<b>ʏᴏᴜᴛᴜʙᴇᴅʟ</b> Said: {}"
+    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> ᴀᴅᴅᴇᴅ to {} Till {}."
+    CURENT_PLAN_DETAILS = """ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴅᴇᴛᴀɪʟꜱ
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free User
 Expires on: 31/12/2022"""
-    HELP_USER = """Hi I Am URL Uploader Bot..
-    
-1. Send Url (Link|New Name With Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select The Button.
-   SVideo - Give File as Video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as Video Without Screenshots
-   DFile  - Give File Without Screenshots
---------
+    HELP_USER = """ʜɪ ɪ ᴀᴍ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ..      1. ꜱᴇɴᴅ ᴜʀʟ (ʟɪɴᴋ|ɴᴇᴡ ɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴꜱɪᴏɴ). 2. ꜱᴇɴᴅ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ (ᴏᴘᴛɪᴏɴᴀʟ). 3. ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ.    ꜱᴠɪᴅᴇᴏ - ɢɪᴠᴇ ꜰɪʟᴇ ᴀꜱ ᴠɪᴅᴇᴏ ᴡɪᴛʜ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ    ᴅꜰɪʟᴇ  - ɢɪᴠᴇ ꜰɪʟᴇ ᴡɪᴛʜ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ    ᴠɪᴅᴇᴏ  - ɢɪᴠᴇ ꜰɪʟᴇ ᴀꜱ ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ    ᴅꜰɪʟᴇ  - ɢɪᴠᴇ ꜰɪʟᴇ ᴡɪᴛʜᴏᴜᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ --------
 Send /me to Know Current Plan Details"""
-    REPLY_TO_DOC_GET_LINK = "Reply to A Telegram media to get High Speed Direct Download Link"
-    REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
+    REPLY_TO_DOC_GET_LINK = "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛᴏ ɢᴇᴛ ʜɪɢʜ ꜱᴘᴇᴇᴅ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ"
+    REPLY_TO_DOC_FOR_C2V = "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days."
+    AFTER_GET_DL_LINK = "ᴅɪʀᴇᴄᴛ ʟɪɴᴋ <a href='{}'>Generated</a> valid for {} days."
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
@@ -55,7 +45,7 @@ Send /me to Know Current Plan Details"""
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
-    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
+    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/groupdcbots"
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
